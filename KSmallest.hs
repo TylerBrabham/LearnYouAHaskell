@@ -1,4 +1,4 @@
--- Find k smallest elements in expected linear time.
+-- Find k smallest elements
 kSmallest :: Int -> [Int] -> [Int]
 kSmallest 0 _ = []
 kSmallest k (x : xs)
